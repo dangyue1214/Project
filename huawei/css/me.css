@@ -1,0 +1,228 @@
+body{
+    background-color: #f5f5f5;
+}
+/* 顶部 */
+.top{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    background-color: red;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:10;
+}
+.headerMe{
+    position: relative;
+    padding:0 0.3rem;
+}
+/* .header-left{
+    display: none;
+} */
+.header-left img{
+    width: 0.7rem;
+    height: 0.7rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* .header-left img,span{   
+    vertical-align: middle;
+} */
+.header-left span{
+    font-size: 0.3rem;
+    margin-left: 0.2rem;
+    display: inline;
+    color:#fff;
+    vertical-align: middle;
+}
+.header-right{
+    position: absolute;
+    right: 0.3rem;
+    top:0;
+}
+.header-right a{
+    display: inline;
+}
+.header-right a i{
+    font-size: 0.4rem;
+    color:#fff;
+    font-weight: 900;    
+}
+.header-right a:nth-of-type(2){
+    margin-left: 0.1rem;   
+}
+/* main */
+main{
+    flex:1;
+    overflow-y:auto;
+}
+main .main-header{
+    width: 100%;
+    height: 3.4rem;
+    padding: 0 0.3rem;
+    background-color: red;
+    position: relative;
+    border-radius: 0 0 50px 50px;
+}
+main .main-header a{
+    position: absolute;
+    top:1.4rem;
+}
+.main-header img{
+    display: inline-block;
+    vertical-align: middle;    
+    width: 1rem;
+    height: 1rem; 
+}
+.main-header div{
+    margin-left: 0.2rem;
+    font-size: 0.38rem;
+    color: #fff; 
+    text-align:center;
+    display: inline-block;
+    vertical-align: middle;   
+}
+.main-header div i{
+    font-size: 0.24rem;
+}
+.main-header div span:nth-of-type(2){
+    width: 1.8rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    background-color:rgba(0,0,0,0.3);
+    border-radius: 20px;
+    text-align:center;
+    font-size: 0.2rem;
+    margin-top:0.1rem;
+}
+.main-list{
+    position: relative;
+}
+.main-list ul{
+    width: 7.1rem;
+    height: 1.4rem;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    top:-0.6rem;
+    left:0.2rem;
+    z-index: 3;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.main-list ul li{
+    width: 1.6rem;
+    height: 0.5rem;
+    border-right: 1px solid #ccc;  
+    color:#777;    
+}
+.main-list ul li:last-child{
+    border-right: none;       
+}
+.order{
+    padding:0 0.2rem;
+    position: relative;
+    z-index:4;
+    top:1rem;
+}
+.order-main{
+    background-color: #fff;
+    border-radius: 20px; 
+    padding:0.2rem 0.2rem;   
+}
+.order-title h3{
+    display: inline;
+}
+.order-title span{
+    display: inline;
+    margin-left: 4rem;
+    font-size: 0.26rem;
+}
+.order-list ul{
+	height: 1.18rem;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top:0.4rem;
+} 
+.order-list ul li a{
+    color:#777;
+    line-height: 0.4rem;
+}
+.order-list ul li a i{
+	font-size:0.4rem !important;
+}
+.order-list ul li p{
+	font-size: 0.24rem;
+}
+.vmall{
+    padding:0.2rem 0.2rem;
+    margin-top:1rem;
+}
+.vmall-content{
+    background-color: #fff;
+    border-radius: 20px;
+    padding:0.2rem 0.2rem;
+}
+.vmall-content ul{
+	/* height: 1.18rem; */
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top:0.4rem;
+} 
+.vmall-content ul li img{
+    width: 1rem;
+    height: 1rem;
+}
+.vmall-content ul li span{
+    font-size: 0.24rem;
+    color:#777;
+}
+.service{
+    padding:0.2rem 0.2rem;
+    margin-top:-0.2rem;
+}
+.service h3{
+    display: inline;
+}
+.service .vmall-content>span{
+    display: inline;
+    margin-left: 4rem;
+}
+.main-banner{
+    padding:0.2rem 0.2rem;
+}
+.main-banner h2{
+    text-align: center;
+}
+.banner-content{
+    background-color: #fff;
+    border-radius: 20px;
+}
+.banner-content ul li{
+    /*width: 7rem;*/
+    width: 100%;
+    border-bottom: 1px solid #dedede;
+    padding:0.2rem 0.2rem;
+    margin:0 auto;
+}
+.banner-content ul li:last-child{
+    border-bottom: none;  
+}
+.banner-content ul li img{
+    width: 100%;
+    height: 2rem;
+    border-radius: 12px;
+}
+.main-bottom{
+    text-align: center;
+    margin-top:0.3rem;
+}
+.main-bottom i{
+    color:#ccc !important;
+    font-size:0.5rem !important;
+    
+}

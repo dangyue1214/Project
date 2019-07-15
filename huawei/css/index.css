@@ -1,0 +1,425 @@
+body{
+    background-color: #f5f5f5;
+}
+/* top */
+.top{
+    /* height: 1.62rem; */
+    background-color: #fff;
+}
+/* header */
+.headerSearch{
+    font-size:.22rem;
+    height: .76rem;
+    justify-content: space-around;
+    margin-top:0.1rem;
+}
+.scan,.news{
+    width: 1.2rem;
+    height: 100%;
+    line-height: .76rem;    
+    text-align: center;
+}
+.top i{
+    font-size:.34rem!important;
+    color:#000 !important;
+   
+}
+.news i{
+    font-size:.5rem!important;
+    color:#000 !important;  
+    font-weight: 900;
+}
+.search{
+    flex:1;
+    height: 100%;
+    color:#999;
+    line-height: .76rem;
+    background-color: #f5f5f5;
+    border-radius:4px;
+    padding:0 .2rem 0 .2rem;
+    overflow: hidden;
+}
+.search .swiper-wrapper{
+    margin-left:.12rem;
+}
+/* nav */
+.navBox{
+    height: .76rem;
+    line-height: .76rem;
+    /* overflow: hidden; */
+}
+.navBox>ul{    
+    overflow-x: auto;
+}
+.navBox>ul>li{   
+    flex-shrink:0;
+    padding:0 .2rem;
+}
+.navBox>ul>li span{
+    font-size:.28rem;    
+    color:#777;
+    height:0.4rem;
+    line-height: 0.25rem;
+    margin-top:0.2rem;
+}
+.navBox>ul>li:nth-of-type(1) span{
+    color:red;
+    border-bottom:3px solid red;
+    
+}
+/* main */
+main{
+    flex:1;
+    overflow-y:auto;
+}
+/* banner */
+.banner{
+    width: 100%;
+    height: 3.04rem;
+    padding:0 0.1rem;
+    background-color: #fff;
+}
+.swiper-container2 {
+    /* width: 7.2rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: .2rem;
+}
+.swiper-container2 img{
+    /* width: 7.2rem; */
+    width: 100%;
+    height: 3.04rem;
+}
+.banner-pagination .swiper-pagination-bullet{
+	width:0.16rem;
+	height:0.16rem;
+	border:0.04rem solid #fff;
+	background-color: rgba(0, 0, 0, .1);
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, 
+.swiper-pagination-custom, .swiper-pagination-fraction{
+	left:2.4rem !important;
+}
+/* good 小图标列表 */
+.good{
+    background-color: #fff;
+}
+.sign{
+    justify-content: space-around;
+    padding-top:0.14rem;    
+}
+.sign i{
+    font-size: 0.20rem !important;
+    color: #dedede;
+    display: inline;
+}
+.sign span{
+    font-size: 0.24rem;
+    color: #777;
+    display: inline;
+}
+.good-list{
+    justify-content: space-around;
+    text-align: center;
+    margin-top:0.3rem;
+}
+.good-list img{
+    width: 0.9rem;
+    height: 0.9rem;
+}
+.good-list p{
+    font-size: 0.26rem;
+    color: #777;
+    margin-top:0.1rem;
+}
+.headlines{
+    width: 6.9rem;
+    /*width: 100%;*/
+    height: 0.84rem;
+    line-height: 0.84rem;
+    border-top:1px solid #dedede;
+    margin:0.2rem auto 0 ;
+    position: relative;
+}
+.headlines .title i{
+    display: inline-block;
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background-color: #dedede;
+    margin-left:0.1rem;
+}
+.headlines .swiper-container3{
+    margin-left:.2rem;
+    font-size: 0.24rem;
+    letter-spacing: 0.02rem;
+}
+.headlines .more{
+    position: absolute;
+    right:0;
+}
+/* 限时购 */
+.limited-time{
+    height: 3.3rem;
+    /* background-color: #f5f5f5; */
+    padding-top:0.2rem;
+}
+.limited-time .time{
+    width: 7.5rem;
+    text-align: center;
+    margin:0 auto;
+}
+.limited-time .time span{
+    display: inline;
+    font-size: 0.32rem;
+}
+.stop{
+    font-size: 0.24rem !important;
+    color:#777;
+}
+.icon-shandian{
+    font-size: 0.4rem;
+    color:red;
+}
+.drop-list{
+    overflow-x: auto;
+    margin-top:0.2rem;
+}
+.drop-list .list-box{
+    flex-shrink:0;
+    margin:0 0.06rem;
+    text-align: center;
+}
+.drop-list .list{
+    width: 1.68rem;
+    height: 1.88rem;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding-top:0.1rem;
+}
+.drop-list .list img{
+    width: 1.4rem;
+    height: 1.4rem;
+    margin:0 auto;  
+}
+.drop-list .list p{
+    font-size:0.2rem;
+    color:#777;
+}
+.list-box span{
+    font-size:0.22rem;
+    color:red;
+    line-height: 0.7rem;
+    display: inline;
+}
+.list-box s{
+    font-size:0.22rem;
+    color:#777;
+    line-height: 0.7rem;
+    margin-left:0.1rem;
+}
+/* 手机图片 */
+.phoneImg{
+    background-color: #fff;
+}
+.phoneImg .img-top{
+    border-radius:6px; 
+}
+.phoneImg .img-top .img-left,.img-right{
+    width: 6.92rem;
+    margin:0 0.03rem;
+}
+.phoneImg .img-top li{
+    margin-bottom:0.06rem;    
+}
+.phoneImg .img-top img{
+    width:100%;    
+}
+.phoneImg .img-bottom ul li{
+    width:2.41rem; 
+    height:3.8rem;
+    background-color: #f5f5f5;
+    margin:0 0.03rem;
+    padding-top:0.4rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.phoneImg .img-bottom img{
+    /* width:100%;     */
+    widows: 1.3rem; 
+    height:1.6rem;
+    margin:0 auto;
+}
+.phoneImg .img-bottom p{
+    font-size:0.3rem;    
+    color:#000; 
+    margin-top:0.2rem;
+}
+.phoneImg .img-bottom li a span:nth-of-type(1){
+    font-size:0.24rem;
+    color:#777;    
+}
+.phoneImg .img-bottom li a span:nth-of-type(2){
+    display: inline;
+    font-size:0.24rem;  
+    color:#000;  
+}
+.phoneImg .img-bottom s{
+    font-size:0.24rem; 
+    color:#777; 
+    margin-left:0.1rem;  
+}
+/* 精品推荐 */
+.fine{
+    background-color: #fff;
+    padding-top:0.6rem;
+}
+.fine h2{
+    font-weight: normal;
+    text-align: center;
+    /* margin-top:0.6rem; */
+}
+.fine .fine-list{
+    overflow-x: auto;
+    margin-top:0.3rem;
+    text-align: center;
+}
+.fine-list .fineList-box{
+    flex-shrink:0;
+    margin:0 0.06rem;    
+}
+.fineList-box .list1{
+    background-color: #f5f5f5;
+    width:2.5rem; 
+    height:2.8rem;
+    border-radius: 10px;
+}
+.fineList-box .list1 img{
+    width:1.6rem; 
+    height:1.6rem;
+    margin:0.3rem auto 0;
+}
+.fineList-box .list1 span{
+    width:0.7rem; 
+    height:0.35rem;
+    line-height:0.35rem;
+    font-size: 0.22rem;
+    color:#fff;
+    background-color: red;
+    margin:0 auto;
+    border-radius: 0 0 8px 8px;
+    text-align: center;
+}
+.fineList-box .list1 p{
+    width:100%;
+    height:0.5rem;
+    line-height:0.5rem;
+    font-size: 0.22rem;
+    color:#777;
+    background-color:#dedede;
+    border-radius: 0 0 10px 10px;
+    margin-top:0.1rem;
+}
+.fineList-box>a span:nth-of-type(1),span:nth-of-type(2){
+    font-size: 0.26rem;
+    color:#000;
+    margin-top:0.2rem;
+}
+.fineList-box>a span:nth-of-type(2){
+    display: inline;
+    color:red;
+}
+/* 手机 */
+.phone{
+    background-color: #fff;
+    /* padding-top:0.4rem; */
+    text-align: center;
+}
+.phone .fine-list{
+    overflow-x: auto;
+    /* margin-top:0.3rem;
+    text-align: center; */
+}
+.phone h2{
+    font-weight: normal;
+    text-align: center;
+    margin-top:0.2rem;
+    height: 1.18rem;
+    line-height: 1.18rem;
+}
+.phone-left,.phone-right{
+    justify-content: space-around;
+}
+/* .phone-box .phone-img{
+    border-radius: 10px;
+} */
+.phone-box .phone-img a{
+    width: 3.6rem;
+    height: 2.6rem;
+    position: relative;
+    border-radius: 12px;
+}
+.phone-box .phone-img a p{
+    width:100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    background-color:rgba(0,0,0,0.3);
+    color: #fff;
+    border-radius: 0 0 12px 12px;
+}
+.phone-box .phone-img1 a{
+    background:url("../img/d1.jpg") no-repeat center;
+    background-size:100% 100%;
+}
+.phone-box .phone-img2 a{
+    background:url("../img/d2.png") no-repeat center;
+    background-size:100% 100%;
+}
+.phone-box .phone-img3 a{
+    background:url("../img/d3.jpg") no-repeat center;
+    background-size:100% 100%;
+}
+.phone-box .phone-img4 a{
+    background:url("../img/d4.jpg") no-repeat center;
+    background-size:100% 100%;
+}
+.phone-box>a span:nth-of-type(1){
+    color: #000;
+    font-size: 0.28rem;
+    margin-top:0.2rem;
+}
+.phone-box>a span:nth-of-type(2){
+    color:red;
+    font-size: 0.26rem;
+    margin:0.2rem 0 0.4rem;
+}
+.phone>p a{
+    width: 100%;
+    height: 1.14rem;
+    line-height: 1.14rem;
+    font-size: 0.28rem;
+    color: #333;
+}
+
+
+/* 返回顶部 */
+.back div{
+    width: 0.8rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    bottom:1.5rem;
+    right:0.3rem;
+    box-shadow: 0.02rem 0.02rem 0.03rem 0 #dedede;
+    display:none;
+}
+.back div i{
+    font-size: 0.5rem !important;
+    color: #333;
+}

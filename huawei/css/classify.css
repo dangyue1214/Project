@@ -1,0 +1,179 @@
+/* header 搜索框  */
+.search{
+    margin-left:0.2rem;
+}
+/* 主要内容 */
+main{
+    background-color: #fff;
+    padding-top:0.2rem;    
+}
+.primary article {
+    /* position: fixed;
+    top:1rem;
+    left:0; */
+    position: relative;
+}
+/* 导航 */
+.main-nav{
+    width: 2rem;
+    margin-left:0.2rem;
+    margin-top:0.2rem;
+    position: fixed;
+    top:1rem;
+    left:0;
+    /* z-index: 2; */
+}
+.main-nav .nav-item{
+    line-height: 1rem;
+    margin-bottom:0.6rem;
+}
+.main-nav .nav-item a span{
+    width: 1.8rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    font-size:0.26rem;
+}
+.main-nav .nav-box li:nth-of-type(1) a span{
+    color:red;
+    border-right:0.04rem solid red;
+}
+.spanColorChange{
+    color:red;
+    border-right:0.04rem solid red;
+}
+.spanColor{
+    color:#777;
+    border-right:none;
+}
+.main-content{
+    width: 5.1rem;
+    /*width: 69%;*/
+    /*flex:1;*/
+    position: absolute;
+    left:2.2rem;
+    text-align: center;
+}
+/* 公共样式 */
+.main-content h3{
+    font-weight: normal;
+}
+.main-content ul{
+    justify-content: space-around;
+}
+.main-content ul li>div{
+    margin-top:0.4rem;
+    width: 1.41rem;
+}
+.main-content ul li>div img{
+    width: 1rem;
+    height: 1rem;
+    margin:0 auto;
+}
+.main-content ul li>div p{
+    font-size: 0.18rem;
+}
+/* 推荐 */
+.banner-bigBox li{
+    width: 100%;
+    height: 1.4rem;
+    margin-bottom:0.12rem;
+}
+.main-content .banner-bigBox img{
+    width: 100%;
+    height: 100%;
+    /*height: 1.4rem;*/
+    border-radius: 10px;
+}
+.banner-little{
+    overflow-x:auto;
+    /* overflow-x:hidden; */
+}
+.banner-little>ul{
+    overflow-x:auto;
+    /* overflow-x:hidden; */
+}
+.banner-little li{
+    width: 1.55rem ;
+    height: 0.8rem ;
+    flex-shrink: 0;
+    margin-right:0.1rem;
+    border-radius: 10px;   
+}
+.banner-little li img{
+    width: 100%;
+    height: 100%;
+}
+.for{
+    margin-top:0.5rem;
+}
+/* .for h3{
+    font-weight: normal;
+} */
+/* .for ul{
+    justify-content: space-around;
+}
+.for ul li>div{
+    margin-top:0.4rem;
+}
+.for ul li>div img{
+    width: 1rem;
+    height: 1rem;
+    margin:0 auto;
+}
+.for ul li>div p{
+    font-size: 0.18rem;
+} */
+/* 华为手机 */
+.huawei-p,.huawei-M,.huawei-N,.huawei-C,.huawei-mm{
+    margin-top:0.5rem;
+}
+/* 荣耀手机 */
+.rongyao,.rongyao-c,.move-4G{
+    margin-top:0.5rem;
+}
+/* 笔记本&平板 */
+.note,.flat,.parts{
+    margin-top:0.5rem;
+}
+/* 智能穿戴  */
+.bracelet,.watch,.VR{
+    margin-top:0.5rem;
+}
+/* 智能家居  */
+.sort{
+    margin-top:0.5rem;
+}
+/* 专属配件 通用配件 生态产品 */
+.exclusive-banner{
+    width: 100%;
+    height: 1.4rem;
+    margin-top:0.2rem;
+}
+.exclusive-banner img{
+    width: 100%;
+    height: 100%;
+}
+.exclusive-sort,.general-sort,.ecological-products{
+    margin-top:0.5rem;
+}
+/* 增值服务 */
+.valueAddedService{
+    margin-top:0.2rem;
+}
+.gifts,.card{
+    margin-top:0.5rem;
+}
+/* 智能计算 */
+.computing-banner{
+    width: 100%;
+    height: 1.4rem;
+    margin-top:0.2rem;
+}
+.computing-banner img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.compute{
+    margin-top:0.5rem;
+}

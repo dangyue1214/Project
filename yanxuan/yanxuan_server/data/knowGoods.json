@@ -1,0 +1,47 @@
+{
+  "knowBanner": [
+    {
+      "title": "常年断货的严选爆品终于上架了，回头客都在抢！",
+      "num": "51w",
+      "pic": "https://yanxuan.nosdn.127.net/6f5e7bb94350b7eed05134a9b1d83200.jpg?imageView&quality=65&thumbnail=690y376"
+    },
+    {
+      "title": "当季新鲜超大只小龙虾限时85折！还有螺蛳粉、无烟小烧烤等必吃热辣夜宵，快来尝尝吧！",
+      "num": "28.5w",
+      "pic": "https://yanxuan.nosdn.127.net/a63e43e658437360d1588d9285353e4b.jpg?imageView&quality=65&thumbnail=690y376"
+    },
+    {
+      "title": "9.9元一口价！买到超值品质好货。为了帮你省钱，选妹拼了",
+      "num": "920w",
+      "pic": "https://yanxuan.nosdn.127.net/e17bf71917038e4a31af6c0b863ec809.jpg?imageView&quality=65&thumbnail=690y376"
+    },
+    {
+      "title": "衣服不会脏、内裤天生抗菌、被子居然是凉的！天呐，严选的日用好物也太黑科技了吧！",
+      "num": "30.5w",
+      "pic": "https://yanxuan.nosdn.127.net/f0fd126d67b48f40fc4180ff449ce593.jpg?imageView&quality=65&thumbnail=690y376"
+    }
+  ],
+  "knowList": [
+    {
+      "name": "网易员工精选",
+      "title": "用户盲测冠军，黄金牧场直供100%生牛乳",
+      "num": "22.1k",
+      "pic1" : "https://yanxuan.nosdn.127.net/b9bac52fadb9b5281f4fdf3e2c640d4a.png?imageView&quality=65&thumbnail=56y56",
+      "pic2": "https://yanxuan.nosdn.127.net/0374d06dd2d164ae81211da5b0eb2d7c.jpg?imageView&quality=65&thumbnail=272y272"
+    },
+    {
+      "name": "网易文漫：小蕙",
+      "title": "无敌显白，专属夏天的雾面口红出现了",
+      "num": "49k",
+      "pic1" : "https://yanxuan.nosdn.127.net/e7c433a3f0f346823689b29c529f71d5.jpg?imageView&quality=65&thumbnail=56y56",
+      "pic2": "https://yanxuan.nosdn.127.net/86672c76dd6128e880283c383e5f1cc0.jpg?imageView&quality=65&thumbnail=272y272"
+    },
+    {
+      "name": "网易味央：小周",
+      "title": "如果只买一口锅，那必然是中华炒锅",
+      "num": "22.1k",
+      "pic1" : "https://yanxuan.nosdn.127.net/9879cc3bdea165c0f6e54eba028962db.jpg?imageView&quality=65&thumbnail=56y56",
+      "pic2": "https://yanxuan.nosdn.127.net/c3c770b0d2b89ad4e1aa56db26d024ae.jpg?imageView&quality=65&thumbnail=272y272"
+    }
+  ]
+}

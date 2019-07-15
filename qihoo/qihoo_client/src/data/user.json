@@ -1,0 +1,28 @@
+{
+  "checkedALL":true,
+  "users":[
+    {
+      "checkedaOne":true,
+      "userid":"0001",
+      "username":"nym",
+      "usernumber":"17719676740",
+      "userpass":"666666",
+      "userImg":"../static/user/user_1.jpg"
+    },{
+      "checkedaOne":true,
+      "userid":"0002",
+      "username":"yaya",
+      "usernumber":"15686143552",
+      "userpass":"123456",
+      "userImg":"../static/user/user_2.jpg"
+    },{
+      "checkedaOne":true,
+      "userid":"0003",
+      "username":"fanfan",
+      "usernumber":"17782672720",
+      "userpass":"654321",
+      "userImg":"../static/user/user_3.gif"
+    }
+  ]
+
+}

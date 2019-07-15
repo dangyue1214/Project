@@ -1,0 +1,18 @@
+@charset "utf-8";
+/*CSS Document*/
+body,p,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,hr,table,th,td,form,input,legend,fieldset{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑",Arial;
+}
+ol,ul{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+}

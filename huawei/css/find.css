@@ -1,0 +1,235 @@
+body{
+    background-color: #f5f5f5;
+}
+/* 顶部 */
+.top{
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    background-color: #fff;
+}
+.headerFind{
+    position: relative;
+} 
+h2{
+    font-weight: normal;
+    text-align: center;
+} 
+.icon-xiaoxi{
+    position: absolute;
+    right:0.4rem;
+    top:0;
+    font-size: 0.5rem !important;
+    color: #000 !important;
+    font-weight: 900;
+}
+/* main */
+main{
+    flex:1;
+    overflow-y:auto;
+}
+/* 发现小图标 */
+.find-list{
+   padding-top:0.4rem;
+   justify-content: space-around;
+   text-align: center;
+   background-color: #fff;
+}
+.find-list img{
+    width: 0.9rem;
+    height: 0.9rem;
+}
+.find-list p{
+    font-size: 0.26rem;
+    color: #777;
+    margin-top:0.1rem;
+}
+/* 商城头条 */
+.mall-headlines{
+    background-color: #fff;
+    padding:0.4rem 0;
+}
+/* 商城头条标题 */
+.mall-title{
+    position: relative;
+}
+.mall-title .mall-state{
+    position: absolute;
+    right: 0.3rem;
+    top:0.1rem;
+    color:#777;
+}
+.mall-title .mall-state i{
+    font-size: 0.26rem;
+}
+/* 隐藏的声明 */
+.state-concent{
+    width: 5rem;
+    height: 3rem;
+    background-color:#fff;
+    padding:0.2rem 0.2rem;
+    border-radius: 8px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+    display: none;
+}
+.state-concent h3{
+    text-align: center;   
+}
+.state-concent .state-main{
+    margin-top:0.2rem;
+    width:100%;
+    height: 1.6rem;
+    line-height: 0.35rem;
+    border-bottom:1px solid #dedede;
+}
+.state-concent .sure{
+    text-align: center;
+    font-size: 0.26rem;
+    line-height:  0.58rem;
+}
+
+/* 小banner图 */
+.banner-little{
+    overflow-x:auto;
+    margin-left:0.1rem;
+    margin-top:0.3rem;
+}
+.banner-little li{
+    width: 1.77rem ;
+    height: 1rem ;
+    flex-shrink: 0;
+    margin-right:0.1rem;
+    border-radius: 10px;   
+}
+.banner-little li img{
+    width: 100%;
+    height: 100%;
+}
+/* 大banner图 */
+.mall-banner{
+    padding:0 0.1rem;
+    position: relative;
+}
+.mall-banner ul li{
+    margin-top:0.3rem;
+}
+.mall-banner ul li img{
+    width: 100%;
+    height: 3rem;
+    border-radius: 12px;
+}
+.mall-banner ul li .p-name{
+    margin-top:0.15rem;
+    font-size: 0.3rem;
+    height: 0.4rem;
+    color: #000;
+    overflow: hidden;
+}
+.mall-banner ul li .p-concent{
+    margin-top:0.15rem;
+    font-size: 0.26rem;
+    color: #777;
+    height: 0.7rem;
+    overflow: hidden;
+}
+.mall-banner ul li span{
+    margin-top:0.15rem;
+    font-size: 0.24rem;
+    color: #ccc;
+    display: inline-block;
+}
+.mall-banner ul li .p-num{
+    position: absolute;
+    right:0.3rem;
+}
+.more span{
+    text-align: center;
+    font-size: 0.26rem;
+    margin-top:0.3rem;
+}
+/* 新摄汇 */
+.new{
+    margin-top:0.2rem;
+    padding:0.3rem 0.1rem;
+    background-color: #fff;
+}
+.new-img{
+    margin-top:0.3rem;
+}
+.new-img a{
+    position: relative;
+}
+.new-img1 img{
+    width: 4.4rem;
+    height: 4.1rem;
+    border-radius: 14px 0 0 0;
+}
+.new-img2 a{
+    margin-left:0.08rem;
+}
+.new-img2 img{
+    width: 2.8rem;
+    height: 2rem;  
+}
+.new-img2 a:nth-of-type(1) img{
+    border-radius: 0 14px 0 0; 
+}
+.new-img2 a:nth-of-type(2){
+    margin-top:0.1rem;   
+}
+.new-img3 a:nth-of-type(1) img{
+    width: 2.8rem;
+    height: 2rem;
+    border-radius: 0 0 0 14px;
+    margin-top:0.1rem;
+}
+.new-img3 a:nth-of-type(2) img{
+    width: 4.4rem;
+    height: 2rem;
+    border-radius: 0 0 14px 0;
+    margin-left:0.08rem;
+    margin-top:0.1rem;
+}
+.new-img span{
+    position: absolute;
+    bottom:0.2rem;
+    left:0.2rem;
+    color:#fff;
+}
+/* 口碑好货 */
+.good-goods{
+    background-color: #fff;
+    margin-top:0.2rem;
+    padding:0.3rem 0.1rem;
+}
+.good-goods .mall-banner ul li a{
+    position: relative;
+}
+.good-goods .mall-banner ul li a span:nth-of-type(3){
+    position: absolute;
+    right: 0.2rem;
+    top:2.3rem;
+    width: 1rem;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    background-color:rgba(0,0,0,0.4);
+    border-radius: 20px;
+    color:#fff;
+}
+.good-goods .mall-banner i{
+    font-size: 0.3rem;
+    color:#fff;
+}
+.main-bottom span{
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    color:#777;
+}
