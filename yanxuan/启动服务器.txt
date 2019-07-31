@@ -1,2 +1,0 @@
-vue脚手架：npm  run  serve
-服务器：npm  run  auto (安装的nodemon)  或者 npm  start
